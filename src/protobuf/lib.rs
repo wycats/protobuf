@@ -17,11 +17,6 @@ mod misc;
 mod zigzag;
 mod hex;
 
-#[cfg(test)]
-mod shrug;
-#[cfg(test)]
-mod test;
-
 // so `use protobuf::*` could work in descriptor mod
 pub mod protobuf {
     pub use descriptor;
