@@ -1,3 +1,5 @@
+#[feature(globs)];
+
 use core::*;
 use hex::*;
 
